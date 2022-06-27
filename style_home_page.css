@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 3px solid rgb(6, 11, 0);
+    margin: 0;
+    padding: 0;
+    border-color: rgb(237, 216, 188);
+    position: relative;
+}
+.head_of_web {
+    width: 100%;
+    min-width: 200px;
+    padding: 3%;
+    background-color: rgb(98 70 29);
+    opacity: 0.7;
+    background-size: cover;
+    display:flex;
+    position: relative;
+}
+#img_logo img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    position: relative;
+    top: -155px;
+    left: -90px;
+}
+.search .search_bar {
+    width: 90%;
+    max-width: 350px;
+    background: rgb(126 87 30);
+    display: flex;
+    border-radius: 60px;
+    margin: 10px 20px;
+    position: absolute;
+    top: 23px;
+    left: 210px;
+}
+.search .search_bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline:rgb(0, 0, 0);
+    padding: 10px 14px;
+    font-size: 14px;
+    width: 37vh;
+    color: rgb(255, 255, 255);
+} ::placeholder {
+    color: white;
+}
+.search .search_bar button img{
+    width: 25px;
+}
+.search .search_bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+    background: rgb(126 87 30);
+}
+.header_list #whatIsORB {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 3px;
+    position: absolute;
+    top: 5px;
+    right: 185px;
+    display: flex;
+    background-color: rgb(126 87 30);
+    flex: 1;
+}
+.Signup_login .Sign_log button{
+    padding: 3px;
+    display: flex;
+    background-color: rgb(126 87 30);
+    flex: 1;
+    border: 0;
+    outline: 0;
+}
+.Signup_login .Sign_log #signup {
+    position: absolute;
+    top: 5px;
+    right: 99px;
+}
+.Signup_login .Sign_log #login {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+}
+.Signup_login .Sign_log li a {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Movie_News_li .Movie_News_ul li {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    top: 5px;
+    right: 185px;
+    display: flex;
+    background-color: rgb(126 87 30);
+}
+.Movie_News_li .Movie_News_ul #movie {
+    position: absolute;
+    top: 60px;
+    right: 195px;
+}
+.Movie_News_li .Movie_News_ul #news {
+    position: absolute;
+    top: 60px;
+    right: 135px;
+}
+
+/* #logo_1 {
+    height: 60px;
+    width: 180px;
+}
+#facebook {
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin: 3px;
+
+}
+#twitter {
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin: 3px;
+}
+#instagram {
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin: 3px;
+}
+#youtube {
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin: 3px;
+} */
